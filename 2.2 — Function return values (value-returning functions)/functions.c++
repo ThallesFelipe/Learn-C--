@@ -13,12 +13,15 @@ int get_value_from_user()
 
 int multiply_by_2(int number) { return number * 2; };
 
-int main()
+void print_doubled_number(int number)
 {
-    int number{get_value_from_user()};
-
     cout << number << " doubled is: " << multiply_by_2(number) << endl
          << endl;
+};
+
+int main()
+{
+    print_doubled_number(get_value_from_user());
 
     return 0;
 };
