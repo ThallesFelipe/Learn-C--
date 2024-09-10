@@ -6,4 +6,3 @@ int a;
 int b;
 // mesma coisa
 int a, b;
-
